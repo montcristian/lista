@@ -1,0 +1,18 @@
+.ver-registros-button {
+    background-color: #1900ff; /* Color de fondo del botón */
+    color: rgb(0, 0, 0); /* Color del texto del botón */
+    padding: 15px 30px; /* Espacio interno del botón */
+    font-size: 18px; /* Tamaño del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cursor al pasar el ratón */
+    font-weight: bold; /* Peso de la fuente */
+    box-shadow: 0 0 20px rgba(187, 163, 175, 0.5); /* Efecto de sombra */
+    width: 50%; /* Ancho del botón */
+  }
+  
+  .ver-registros-button:hover {
+    background-color: #010b0c; /* Cambio de color de fondo al pasar el ratón */
+    color: #0011ff; /* Cambio de color de texto al pasar el ratón */
+  }
+  

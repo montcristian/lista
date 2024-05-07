@@ -1,0 +1,58 @@
+.titulo {
+    text-align: center;
+    color: #000000;
+    text-shadow: 0 0 10px rgb(255, 255, 255); /* Efecto de sombra */
+    margin-bottom: 20px; /* Agrega un espacio entre el título y el formulario */
+    margin-top: 20px; /* Agrega un espacio en la parte superior del título */
+  }
+  
+  .registro-container {
+    padding: 30px; /* Aumenta el relleno para hacer el contenedor más amplio */
+    border-radius: 10px;
+    background: linear-gradient(to right, #0026ffa9, #02000c);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    width: 90%; /* Ajusta el ancho del contenedor */
+    max-width: 600px; /* Establece el ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+  }
+  
+  .registro-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra los elementos del formulario horizontalmente */
+  }
+  
+  .registro-input {
+    margin-bottom: 20px; /* Aumenta el espacio entre los campos de entrada */
+    padding: 15px; /* Aumenta el espacio interno de los campos de entrada */
+    border: 2px solid #ffffff; /* Borde */
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fffefe;
+    font-size: 18px; /* Aumenta el tamaño de fuente */
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+  
+  .registro-input:focus {
+    outline: none; /* Eliminar el contorno al enfocar */
+  }
+  
+  .registro-button {
+    background-color: #1900ff;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(187, 163, 175, 0.5); /* Efecto de sombra */
+    width: 50%; /* Ancho del botón */
+  }
+  
+  .registro-button:hover {
+    background-color: #010b0c;
+    color: #0011ff;
+  }
+  
